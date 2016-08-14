@@ -1,0 +1,21 @@
+object ErrorDialogList: TErrorDialogList
+  Left = 233
+  Height = 243
+  Top = 166
+  Width = 216
+  BorderStyle = bsToolWindow
+  Caption = 'Список ошибок'
+  ClientHeight = 243
+  ClientWidth = 216
+  Position = poScreenCenter
+  LCLVersion = '1.0.2.0'
+  object ListBox1: TListBox
+    Left = 4
+    Height = 216
+    Top = 24
+    Width = 208
+    Align = alCustom
+    ItemHeight = 0
+    TabOrder = 0
+  end
+end

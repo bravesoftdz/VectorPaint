@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="VectorEditor"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="LazControls"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="RunTimeTypeInfoControls"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="14">
+      <Unit0>
+        <Filename Value="VectorEditor.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="VectorEditor"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="VectorEditMainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UMain"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="uvisualtools.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UVisualTools"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="unotvisualtools.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UNotVisualTools"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="utransformation.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UTransformation"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="urtti.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="URTTI"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uedits.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UEdits"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="ufigures.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UFigures"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="ugraph.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UGraph"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="usaveloadtolpf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="USaveLoadToLPF"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="uexceptions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UExceptions"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="uedialoglist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ErrorDialogList"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UEDialogList"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="ueditsstatic.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UEditsStatic"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="uabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="About"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UAbout"/>
+      </Unit13>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="VectorEditor"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>
